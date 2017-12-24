@@ -1,4 +1,4 @@
-webpackJsonp([0],[,,function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),function(e){var t=n(0),r=(n.n(t),n(4)),i=(n.n(r),n(1)),o=Object(i.a)(["Главная","Новости"],"header-menu");document.body.appendChild(o),console.log("in index.js"),console.log(e)}.call(t,n(3))},function(e,t,n){var r,i;/*!
+webpackJsonp([0],[,,function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),function(e){var t=n(0),r=(n.n(t),n(4)),i=(n.n(r),n(1)),o=Object(i.a)([{title:"Главная",url:"index.html"},{title:"Новости",url:"news.html"}],"header-menu");document.body.appendChild(o),console.log("in index.js"),console.log(e)}.call(t,n(3))},function(e,t,n){var r,i;/*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
  *
