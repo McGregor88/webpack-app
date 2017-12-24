@@ -1,3 +1,4 @@
+import 'normalize.css';
 import './news.scss';
 
 import createMenu from '../../components/menu/menu';
