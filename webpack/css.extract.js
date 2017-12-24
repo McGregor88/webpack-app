@@ -12,6 +12,7 @@ module.exports = function(paths) {
                         fallback: 'style-loader',
                         use: [
                             'css-loader',
+                            'postcss-loader',
                             'sass-loader'
                         ]
                     })
@@ -21,7 +22,10 @@ module.exports = function(paths) {
                     include: paths,
                     use: ExtractTextPlugin.extract({
                         fallback: 'style-loader',
-                        use: 'css-loader'
+                        use: [
+                            'css-loader',
+                            'postcss-loader',
+                        ]
                     })
                 }
             ]

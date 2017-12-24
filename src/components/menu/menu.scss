@@ -1,7 +1,7 @@
 ul {
     border: 1px solid #777;
     background: url("menu.svg") no-repeat;
-    list-style: none;
+    padding-left: 40px;
     li {
         display: inline-block;
         padding: 5px 10px;
@@ -14,14 +14,5 @@ ul {
     }
     a {
         display: block;
-        color: #000;
-        text-decoration: none;
-        transition: color .25s ease;
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: #fff;
-        }
     }
 }

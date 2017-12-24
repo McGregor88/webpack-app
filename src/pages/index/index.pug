@@ -2,5 +2,7 @@ extends ../base
 block title
     | Index page
 block main
-    h1 Главная
-    img(src=require("./webpack.svg") width="100")/
+    main#main(role="main")
+        .page-wrapper.text-center
+            h1.text-upper Главная
+            img(src=require("./webpack.svg") width="100")/
