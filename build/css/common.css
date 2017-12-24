@@ -447,6 +447,7 @@ template {
 }
 ul {
   border: 1px solid #777;
+  background: url(../img/menu.svg) no-repeat;
   list-style: none; }
   ul li {
     display: inline-block;
