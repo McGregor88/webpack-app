@@ -73,7 +73,7 @@
     menu.className = className;
     var listItems = '';
     array.forEach(function(item) {
-        listItems += '<li>' + item + '</li>';
+        listItems += '<li><a href="javascript:void(0);">' + item + '</a></li>';
     });
     menu.innerHTML = listItems;
     return menu;
@@ -87,7 +87,7 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_menu_menu__ = __webpack_require__(0);
 
-var menu = Object(__WEBPACK_IMPORTED_MODULE_0__components_menu_menu__["a" /* default */])(['Главная', 'Новости'], 'menu');
+var menu = Object(__WEBPACK_IMPORTED_MODULE_0__components_menu_menu__["a" /* default */])(['Главная', 'Новости'], 'header-menu');
 document.body.appendChild(menu);
 
 console.log('in index.js');
