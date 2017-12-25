@@ -1,5 +1,5 @@
 import 'normalize.css';
-import '../../sass/base.scss';
+import '../../sass/base.sass';
 import './news.scss';
 
 import createMenu from '../../components/menu/menu';
