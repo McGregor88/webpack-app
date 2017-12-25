@@ -1,0 +1,43 @@
+/**
+ * Buttons
+ */
+
+.btn {
+	display: inline-block;
+	background-color: $blue;
+	color: #fff;
+	font-family: $regular;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 44px;
+	line-height: 43px;
+	border: none;
+	cursor: pointer;
+	transition: all .25s ease;
+
+	&:before {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;
+		font-size: 0;
+		width: 0;
+	}
+
+	&:hover,
+	&.btn-active {
+		color: #fff;
+		background-color: darken($blue, 20%);
+	}
+}
+
+a.btn:active,
+a.btn:focus,
+a.btn:hover {
+	color: #fff;
+}
