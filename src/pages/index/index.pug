@@ -1,8 +1,12 @@
 extends ../base
-block title
-    | Index page
+block head
+    include ../../templates/partials/common/head.pug
 block main
     main#main(role="main")
         .page-wrapper.text-center
             h1.text-upper Главная
             img(src=require("./webpack.svg") width="100")/
+block footer
+    include ../../templates/partials/common/footer.pug
+block js
+    include ../../templates/partials/common/js.pug

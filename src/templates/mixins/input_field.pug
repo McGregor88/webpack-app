@@ -1,0 +1,23 @@
+//- Input field with label
+
+mixin input-field(input)
+	-
+		var input_label = input.label || "",
+			input_type = input.type || "text",
+			input_placeholder = input.placeholder || "",
+			input_icon_class = input.icon_class || "",
+			input_layout = input.layout || "";
+
+			if (input_icon_class != "") input_layout += " input-field-has-icon";
+
+	.input-field(class=input_layout)
+		label
+			span.input-field__label-text #{input_label}
+			input(
+				type=input_type
+				placeholder=input_placeholder
+				class="form-control form-control-round"
+			)
+
+			if (input_icon_class != "")
+				span.icon(class=input_icon_class)
