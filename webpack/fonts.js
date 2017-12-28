@@ -7,7 +7,9 @@ module.exports = function() {
                     use: [{
                         loader: 'file-loader',
                         options: {
+                            name: '[name].[ext]',
                             outputPath: 'fonts/'
+                            //publicPath: 'assets/'
                         }
                     }]
                 }
