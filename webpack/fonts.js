@@ -4,9 +4,12 @@ module.exports = function() {
             rules: [
                 {
                     test: /\.(ttf|eot|woff|woff2)$/,
-                    use: [
-                        'file-loader'
-                    ]
+                    use: [{
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: 'fonts/'
+                        }
+                    }]
                 }
             ]
         }
