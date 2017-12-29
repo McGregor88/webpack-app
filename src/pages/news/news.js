@@ -1,6 +1,5 @@
 import 'normalize.css';
 import '../../sass/style.sass';
-import './news.scss';
 
 import createMenu from '../../components/menu/menu';
 var menu = createMenu(
@@ -18,4 +17,6 @@ var menu = createMenu(
 );
 document.getElementById("header-menu").appendChild(menu);
 
-console.log('in news.js');
+$(document).ready(function () {
+    console.log('in news.js');
+});

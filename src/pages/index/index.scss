@@ -1,13 +1,11 @@
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('./HelveticaRegular.woff') format('woff'),
-         url('./HelveticaRegular.eot') format('eot'),
-         url('./HelveticaRegular.ttf') format('ttf');
-    font-weight: 600;
-    font-style: normal;
-}
-$regular-font: 'HelveticaRegular', sans-serif;
-h1 {
-    color: brown;
-    font-family: $regular-font;
+/**
+ * Home page styles
+ */
+
+.main-home {
+    h1 {
+        color: brown;
+        font-family: $regular;
+        font-weight: normal;
+    }
 }

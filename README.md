@@ -1,9 +1,19 @@
 # Webpack App start.
 
-# Initialization - in console: "yarn"
+INSTALLATION
+------------
 
-# Commands:
+in console:
 
-# "yarn run start" - for development
-# "yarn run build" - for production
-# "yarn run serv" - static build
+        yarn
+
+COMMANDS:
+------------
+
+On command line, type in the following commands:
+
+        yarn run start                  (for development)
+
+        yarn run build                  (for production)
+
+        yarn run serv                   (static build)

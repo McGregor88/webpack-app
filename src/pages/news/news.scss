@@ -1,10 +1,18 @@
-h1 {
-    color: palevioletred;
-}
-p {
-    font-size: responsive;
-    margin-top: 50px;
-}
-.btn {
-    margin: 100px 0;
+/**
+ * News page styles
+ */
+
+.main-news {
+    h1 {
+        color: palevioletred;
+        font-family: $bold;
+        font-weight: normal;
+    }
+    p {
+        font-size: responsive;
+        margin-top: 50px;
+    }
+    .btn {
+        margin: 100px 0;
+    }
 }

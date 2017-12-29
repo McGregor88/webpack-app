@@ -1,6 +1,5 @@
 import 'normalize.css';
 import '../../sass/style.sass';
-import './index.scss';
 
 import createMenu from '../../components/menu/menu';
 var menu = createMenu(
@@ -18,5 +17,7 @@ var menu = createMenu(
 );
 document.getElementById("header-menu").appendChild(menu);
 
-console.log('in index.js');
-console.log($);
+$(document).ready(function () {
+    console.log('in index.js');
+    console.log($);
+});
